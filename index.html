@@ -237,11 +237,72 @@
           <div class="mb-3">
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
           </div>
-          <button type="submit" class="btn btn-buy-now">Submit</button>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn-buy-now" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Submit</button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Are you really submit this???</h5>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn-buy-now" data-bs-dismiss="modal">Back</button>
+                  <button type="button" class="btn-buy-now">Yes!!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal end -->
         </form>
       </div>
     </section>
     <!-- Subscribe section end from here -->
+    <!-- additional accordian section start -->
+    <section class="container mt-5">
+      <div class="accordion" id="accordionExample">
+        <!-- first accorida item -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button bg-color" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Why we use this site?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body bg-color">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste laboriosam officia praesentium pariatur
+              possimus autem cum dicta ipsum eveniet sed provident dignissimos fugit placeat non sint optio aliquid iure
+              illo vero in, dolore eius quam. Optio, exercitationem. Tempore est quibusdam eos nostrum dicta, placeat
+              eveniet et provident nemo. Repellat, aliquid.
+            </div>
+          </div>
+        </div>
+        <!-- second accordian Item -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button bg-color collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Why you buy from this site?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body bg-color">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eaque sequi dolores sunt ipsa ipsam
+              veniam ad eveniet vitae velit temporibus minus soluta eos, et recusandae amet! Deserunt possimus
+              laboriosam nihil fuga reprehenderit, ab molestias quos blanditiis qui necessitatibus culpa facilis maiores
+              nostrum fugiat eius nesciunt voluptatem reiciendis voluptatum libero?
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- additional accordian section end -->
   </main>
   <!-- main section category end from here -->
   <!-- footer section start from here -->
